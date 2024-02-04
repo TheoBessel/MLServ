@@ -1,0 +1,8 @@
+(library
+ (name ocaml_server))
+
+(library
+ (name ocaml_client))
+
+(library
+ (name test_file))

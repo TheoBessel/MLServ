@@ -1,0 +1,17 @@
+(executable
+ (public_name ocaml_server)
+ (name server)
+ (modules server)
+ (libraries ocaml_server unix threads))
+
+(executable
+ (public_name ocaml_client)
+ (name client)
+ (modules client)
+ (libraries ocaml_client unix threads))
+
+(executable
+ (public_name test_file)
+ (name test)
+ (modules test)
+ (libraries test_file unix threads))
