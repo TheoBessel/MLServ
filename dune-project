@@ -5,22 +5,22 @@
 (generate_opam_files true)
 
 (source
- (github username/reponame))
+ (github TheoBessel/MLServ))
 
-(authors "Author Name")
+(authors "Theo Bessel")
 
-(maintainers "Maintainer Name")
+(maintainers "Theo Bessel")
 
 (license LICENSE)
 
-(documentation https://url/to/documentation)
+(documentation "https://github.com/TheoBessel/MLServ/README.md")
 
 (package
- (name ocaml_router)
- (synopsis "A short synopsis")
- (description "A longer description")
+ (name ml_serv)
+ (synopsis "A multithread TCP server in OCaml")
+ (description "A multithread TCP server written from scratch in OCaml for learning purposes")
  (depends ocaml dune)
  (tags
-  (topics "to describe" your project)))
+  ("Server" "TCP" "OCaml" "From scratch" "multithread")))
 
 ; See the complete stanza docs at https://dune.readthedocs.io/en/stable/dune-files.html#dune-project

@@ -9,9 +9,3 @@
  (name client)
  (modules client)
  (libraries ocaml_client unix threads))
-
-(executable
- (public_name test_file)
- (name test)
- (modules test)
- (libraries test_file unix threads))

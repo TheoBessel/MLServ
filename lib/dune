@@ -3,6 +3,3 @@
 
 (library
  (name ocaml_client))
-
-(library
- (name test_file))

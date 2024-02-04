@@ -1,2 +1,2 @@
 (test
- (name test_ocaml_router))
+ (name test_ml_serv))
