@@ -1,6 +1,6 @@
 (lang dune 3.10)
 
-(name ocaml_router)
+(name ml_serv)
 
 (generate_opam_files true)
 
